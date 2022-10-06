@@ -140,11 +140,11 @@ global.APIKeys = { // APIKey Here
 /*============== WATERMARK ==============*/
 global.wm = 'EzaBot-MD࿐【﻿RezaOfc】' //Main Watermark
 global.wm2 = '¸„٭⊹•~⍣°”ˆ˜¨ EzaBot-MD࿐¨˜ˆ”°⍣~•⊹٭„¸'
-global.wm3 = '☘︎ EzaBot-MD '
-global.botdate = `☘︎ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
-global.bottime = `☘︎ T I M E : ${wktuwib}`
-global.titlebot = `☘︎ 𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽 𝗕𝗼𝘁 𝗠𝘂𝗹𝘁𝗶-𝗗𝗲𝘃𝗶𝗰𝗲| By RezaOfc`
-global.packname = '☘︎ EzaBot-MD'
+global.wm3 = '⛁ EzaBot-MD '
+global.botdate = `⛁ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
+global.bottime = `⛁ T I M E : ${wktuwib}`
+global.titlebot = `⛁ 𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽 𝗕𝗼𝘁 𝗠𝘂𝗹𝘁𝗶-𝗗𝗲𝘃𝗶𝗰𝗲| By RezaOfc`
+global.packname = '⛁ EzaBot-MD'
 global.author = '┄┄┄┅┅❑ EzaBot-ᴍᴅ᭄'
 
 /*Fake*/
