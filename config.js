@@ -154,11 +154,11 @@ global.thumbdoc = 'https://telegra.ph/file/6048ec3e029520424c234.jpg'
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://i.ibb.co/XZrK6yQ/transformers.jpg' //Main Thumbnail
-global.imagebot = 'https://i.ibb.co/XZrK6yQ/transformers.jpg'
+global.thumb = 'https://telegra.ph/file/8cacba9fad7f0d0270234.jpg' //Main Thumbnail
+global.imagebot = 'https://telegra.ph/file/8cacba9fad7f0d0270234.jpg'
 global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
-global.thumbs = ['https://i.ibb.co/XZrK6yQ/transformers.jpg']
-global.fla = 'https://i.ibb.co/XZrK6yQ/transformers.jpg'
+global.thumbs = ['https://telegra.ph/file/8cacba9fad7f0d0270234.jpg']
+global.fla = 'https://telegra.ph/file/8cacba9fad7f0d0270234.jpg'
 global.thumbnailUrl = [
 'https://telegra.ph/file/81260a8b9e8cff26d2b48.jpg','https://telegra.ph/file/ac4928f0824a2a0492737.jpg',
 'https://telegra.ph/file/6359b013bc7e52c3b346f.jpg','https://telegra.ph/file/d43c89a5d2da72875ec05.jpg',
@@ -632,8 +632,8 @@ global.htki = '––––––『' // Hiasan Titile (KIRI)
 global.htka = '』––––––' // Hiasan Title  (KANAN)
 global.lopr = 'Ⓟ' //LOGO PREMIUM ON MENU.JS
 global.lolm = 'Ⓛ' //LOGO LIMIT/FREE ON MENU.JS
-global.htjava = '☘︎'    //hiasan Doang :v
-global.hsquere = ['⛶','❏','☘︎']
+global.htjava = '⫹⫺'    //hiasan Doang :v
+global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
 global.stickpack = 'EzaBot-MD'
