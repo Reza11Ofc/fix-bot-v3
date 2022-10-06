@@ -12,35 +12,35 @@ const defaultMenu = {
   before: `
 ╭─────═[ INFO USER ]═─────⋆
 │╭───────────────···
-┴│☂︎ *Name:* %name
-${emot}│☂︎ *Tag:* %tag
-${emot}│☂︎ *Premium:* %prems
-${emot}│☂︎ *Limit:* %limit
-${emot}│☂︎ *Money:* %money
-${emot}│☂︎ *Role:* %role
-${emot}│☂︎ *Level:* %level [ %xp4levelup Xp For Levelup]
-${emot}│☂︎ *Xp:* %exp / %maxexp
-┬│☂︎ *Total Xp:* %totalexp
+┴│ *Name:* %name
+${emot}│ *Tag:* %tag
+${emot}│ *Premium:* %prems
+${emot}│ *Limit:* %limit
+${emot}│ *Money:* %money
+${emot}│ *Role:* %role
+${emot}│ *Level:* %level [ %xp4levelup Xp For Levelup]
+${emot}│ *Xp:* %exp / %maxexp
+┬│ *Total Xp:* %totalexp
 │╰────────────────···
 ┠─────═[ TODAY ]═─────⋆
 │╭────────────────···
 ┴│    *${ucapan()} %name!*
-${emot}│☂︎ *Tanggal:* %week %weton
-${emot}│☂︎ *Date:* %date
-${emot}│☂︎ *Tanggal Islam:* %dateIslamic
-┬│☂︎ *Waktu:* %time
+${emot}│ *Tanggal:* %week %weton
+${emot}│ *Date:* %date
+${emot}│ *Tanggal Islam:* %dateIslamic
+┬│ *Waktu:* %time
 │╰────────────────···
 ┠─────═[ INFO BOT ]═─────⋆
 │╭────────────────···
-┴│☂︎ *Nama Bot:* %me
-${emot}│☂︎ *Mode:* %mode
-${emot}│☂︎ *Prefix:* [ *%_p* ]
-${emot}│☂︎ *Baileys:* Multi Device
-${emot}│☂︎ *Battery:* ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
-${emot}│☂︎ *Platform:* %platform
-${emot}│☂︎ *Type:* Node.Js
-${emot}│☂︎ *Uptime:* %muptime
-┬│☂︎ *Database:* %rtotalreg dari %totalreg
+┴│ *Nama Bot:* %me
+${emot}│ *Mode:* %mode
+${emot}│ *Prefix:* [ *%_p* ]
+${emot}│ *Baileys:* Multi Device
+${emot}│ *Battery:* ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
+${emot}│ *Platform:* %platform
+${emot}│ *Type:* Node.Js
+${emot}│ *Uptime:* %muptime
+┬│ *Database:* %rtotalreg dari %totalreg
 │╰────────────────···
 ╰──────────═┅═──────────
 
