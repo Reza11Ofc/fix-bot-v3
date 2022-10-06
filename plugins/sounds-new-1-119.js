@@ -16,7 +16,7 @@ let stiker = await sticker(null, global.API(`https://telegra.ph/file/d34b2ab2cb2
           showAdAttribution: true,
     mediaUrl: sig,
     mediaType: 2,
-    description: 'WH MODS BOT MD 𝑿 WH MODS DEV', 
+    description: 'EzaBot-MD', 
     title: `${command} Sedang Di Proses`,
     body: botdate,
     thumbnail: await(await fetch(pp)).buffer(),
