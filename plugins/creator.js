@@ -29,7 +29,7 @@ ${htjava} *🎨 Umur* : 16
 ${htjava} *🧩 Hobby* : jadi beban keluarga
 ${htjava} *💬 Sifat* : tolol,noleb,otak bokep 
 ${htjava} *🗺️ Tinggal* : Indo, 
-${htjava} *❤️ pacar * : Syarifah
+${htjava} *❤️ Pacar* : Syarifah
 
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
 ${htjava} *🐈 ɢɪᴛʜᴜʙ:* ${sgh}
@@ -41,8 +41,6 @@ const sections = [
 	title: `${htjava} OWNER –––––––––·•`,
 	rows: [
 	{title: "📱 • Nomor Owner", rowId: ".owner nomor"},
-	{title: "📱 • Nomor Owner V2", rowId: ".whmods1"},
-	{title: "📱 • Pengembang", rowId: ".whmods2"},
 	{title: "📱 • Creator", rowId: ".whmods3"},
 	{title: "🎨 • Biodata", rowId: ".owner bio"},
 	{title: "🌎 • Script", rowId: ".sc"},
