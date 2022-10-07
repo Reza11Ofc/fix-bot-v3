@@ -60,7 +60,8 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
   let arrayMenu = ['all', 'anime', 'update', 'maker', 'edukasi', 'news', 'random', 'game', 'xp', 'islamic', 'stiker', 'rpg', 'kerangajaib', 'quotes', 'admin', 'group', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database','quran', 'vote', 'nsfw', 'audio', 'jadibot', 'info', 'owner', 'nocategory']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
-game': 'Game',
+  'main': 'Main',
+  'game': 'Game',
   'rpg': 'RPG Games',
   'xp': 'Exp & Limit',
   'sticker': 'Sticker',
@@ -79,9 +80,7 @@ game': 'Game',
   'tools': 'Tools',
   'nulis': 'MagerNulis & Logo',
   'audio': 'Audio',
-  'logo': 'Logo Menu',
   'maker': 'Maker',
-  'berita': 'Berita',
   'database': 'Database',
   'quran': 'Al Qur\'an',
   'owner': 'Owner',
@@ -123,9 +122,6 @@ game': 'Game',
   if (teks == 'quotes') tags = {
     'quotes': 'Quotes'
   }
-  if (teks == 'berita') tags = {
-    'berita': 'Berita'
-  }
   if (teks == 'admin') tags = {
     'admin': `Admin ${global.opts['restrict'] ? '' : '(Dinonaktifkan)'}`,
     'group': 'Grup'
@@ -152,9 +148,6 @@ game': 'Game',
   if (teks == 'tools') tags = {
     'tools': 'Tools'
   }
-if (teks == 'menbalas') tags = {
-    'menbalas': 'Menfess'
-  }
   if (teks == 'fun') tags = {
     'fun': 'Fun'
   }
@@ -163,9 +156,7 @@ if (teks == 'menbalas') tags = {
   }
   if (teks == 'vote') tags = {
     'vote': 'Voting',
-  }
-  if (teks == 'logo') tags = {
-    'logo': 'Logo Menu',
+    'absen': 'Absen'
   }
   if (teks == 'absen') tags = {
     'absen': 'Absen'
@@ -252,38 +243,39 @@ if (teks == 'menbalas') tags = {
 	},{
 	title: `${htki} MENU ${htka}`,
 	rows: [
-            {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
-            {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
-        {title: `✨ ${pmenus} Exp`, rowId: ".? xp", description: "Ayo tingkatkan pangkat mu!"},
-        {title: `🎮 ${pmenus} Game`, rowId: ".? game", description: "Gamenya seru seru lho >-<"},
-        {title: `🧩 ${pmenus} Fun`, rowId: ".? fun", description: "Fitur yang aman untuk keluarga"},
-        {title: `🐚 ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada ketua club"},
-        {title: `📑 ${pmenus} Quotes`, rowId: ".? quotes", description: "Random Inspirasi"},
-        {title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "Kamu wibu ya bang?"},
-        {title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagne"},
-        {title: `🌟 ${pmenus} Premium`, rowId: ".? premium", description: "Only premium Users"},
-        {title: `🎭 ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Bicara dengan orang tidak dikenal"},
-        {title: `📖 ${pmenus} Al-Quran`, rowId: ".? quran", description: "Tobat yuk kak"},
-        {title: `🌎 ${pmenus} Internet`, rowId: ".? internet", description: "Cari sesuatu diBOT"},
-        {title: `🌎 ${pmenus} Berita`, rowId: ".? berita", description: "Cari berita terupdate"},
-        {title: `📩 ${pmenus} Downloaders`, rowId: ".? downloader", description: "Download sesuatu diBOT"},
-        {title: `🎨 ${pmenus} Stikers`, rowId: ".? stiker", description: "Buat Sticker diBOT"},
-        {title: `🎨 ${pmenus} Logo`, rowId: ".? logo", description: "Buat Logo Kamu diBOT"},
-        {title: `✏️ ${pmenus} Nulis`, rowId: ".? nulis", description: "Nulis kok males kak?"},
-        {title: `🎧 ${pmenus} Audio`, rowId: ".? audio", description: "Ubah Audio dengan Filter"},
-        {title: `🏢 ${pmenus} Group`, rowId: ".? group", description: "Only Groups"},
-        {title: `👑 ${pmenus} Admin`, rowId: ".? admin", description: "Only Admin Group"},
-        {title: `🗂️ ${pmenus} Database`, rowId: ".? database", description: "Simpan sesuatu diBOT"},
-        {title: `🛠️ ${pmenus} Tools`, rowId: ".? tools", description: "Mungkin tools ini bisa membantu?"},
-        {title: `ℹ️ ${pmenus} Info`, rowId: ".? info", description: "Info info BOT"},
-        {title: `👩‍💻 ${pmenus} Owner`, rowId: ".? owner", description: "Owner Only!"},
-        {title: `❓ ${pmenus} No Category`, rowId: ".? nocategory", description: "Fitur tanpa kategory!"},
-        ]
+	    {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
+	    {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
+	{title: `✨ ${pmenus} Exp`, rowId: ".? xp", description: "Ayo tingkatkan pangkat mu!"},
+	{title: `🎮 ${pmenus} Game`, rowId: ".? game", description: "Gamenya seru seru lho >-<"},
+	{title: `🧩 ${pmenus} Fun`, rowId: ".? fun", description: "Fitur yang aman untuk keluarga"},
+	{title: `🐚 ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada ketua club"},
+	{title: `📑 ${pmenus} Quotes`, rowId: ".? quotes", description: "Random Inspirasi"},
+	{title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "Kamu wibu ya bang?"},
+	{title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagne"},
+	{title: `🌟 ${pmenus} Premium`, rowId: ".? premium", description: "Only premium Users"},
+	{title: `🎭 ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Bicara dengan orang tidak dikenal"},
+	{title: `📖 ${pmenus} Al-Quran`, rowId: ".? quran", description: "Tobat yuk kak"},
+	{title: `🌎 ${pmenus} Internet`, rowId: ".? internet", description: "Cari sesuatu diBOT"},
+	{title: `📩 ${pmenus} Downloaders`, rowId: ".? downloader", description: "Download sesuatu diBOT"},
+	{title: `🎨 ${pmenus} Stikers`, rowId: ".? stiker", description: "Buat Sticker diBOT"},
+	{title: `✏️ ${pmenus} Nulis`, rowId: ".? nulis", description: "Nulis kok males kak?"},
+	{title: `🎧 ${pmenus} Audio`, rowId: ".? audio", description: "Ubah Audio dengan Filter"},
+        {title: `🎧 ${pmenus} Sound Menu`, rowId: ".soundmenu", description: "Kumpulan 120 Sound"},
+        {title: `🎧 ${pmenus} Sound Kane Menu`, rowId: ".soundkanemenu", description: "Kumpulan 24 Sound"},
+	{title: `🏢 ${pmenus} Group`, rowId: ".? group", description: "Only Groups"},
+	{title: `👑 ${pmenus} Admin`, rowId: ".? admin", description: "Only Admin Group"},
+	{title: `🗂️ ${pmenus} Database`, rowId: ".? database", description: "Simpan sesuatu diBOT"},
+	{title: `🛠️ ${pmenus} Tools`, rowId: ".? tools", description: "Mungkin tools ini bisa membantu?"},
+	{title: `ℹ️ ${pmenus} Info`, rowId: ".? info", description: "Info info BOT"},
+	{title: `👩‍💻 ${pmenus} Owner`, rowId: ".? owner", description: "Owner Only!"},
+	{title: `❓ ${pmenus} No Category`, rowId: ".? nocategory", description: "Fitur tanpa kategory!"},
+	]
   },
 ]
 
 let usrs = db.data.users[m.sender]
 let tek = `*${ucapan()} ${conn.getName(m.sender)}*
+
 *U S E R  I N F O*
 • *ɴᴀᴍᴇ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
 • *ᴛᴀɢs:* @${m.sender.split`@`[0]}
@@ -591,16 +583,16 @@ function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   let res = "Selamat DiniHari ☀️"
   if (time >= 4) {
-    res = "Good Morning 🌄"
+    res = "ohayou gozaimasu 🌄"
   }
   if (time >= 10) {
-    res = "Good Afternoon ☀️"
+    res = "konnichiwa ☀️"
   }
   if (time >= 15) {
-    res = "Good Afternoon 🌇"
+    res = "konbanwa 🌇"
   }
   if (time >= 18) {
-    res = "Good Night 🌙"
+    res = "oyassuminasai 🌙"
   }
   return res
 }
