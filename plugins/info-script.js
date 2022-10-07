@@ -9,8 +9,6 @@ Nih ada santai bro....
 https://github.com/ImYanXiao/Elaina-MultiDevice
 
 Pengen yang udah di recode oleh owner?
-Script bot ini dijual bila kalian mau bisa chat owner
-
 wa.me/6289606790112`
 let wibu = `https://api-reysekha.herokuapp.com/api/random/cosplay?apikey=apirey` 
 let thumb = await(await fetch(wibu)).buffer()
