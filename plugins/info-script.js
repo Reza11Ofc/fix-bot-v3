@@ -15,7 +15,7 @@ let thumb = await(await fetch(wibu)).buffer()
 conn.sendButtonDoc(m.chat, str, wm,'Thankyou','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: "https://Instagram.com/gamer.s_official",
     mediaType: "VIDEO",
-    description: "https://www.instagram.com/p/CevoCg5hG-p/?utm_source=ig_web_copy_link", 
+    description: "https://www.instagram.com/gamer.s_official", 
     title: 'EzaBot-MD',
     body: wm,
     thumbnail: thumb,
