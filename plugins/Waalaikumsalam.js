@@ -46,8 +46,8 @@ let td = 'application/vnd.openxmlformats-officedocument.wordprocessingml.documen
 conn.reply(m.chat, info, m, { quoted: fkontak },{ contextInfo: { externalAdReply: { showAdAttribution: true,
       mediaUrl: "https://github.com/ImYanXiao",
       mediaType: 2,
-      description: "https://github.com/ImYanXiao", 
-      title: 'whmods-ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ',
+      description: "https://github.com/RezaOfc", 
+      title: 'EZABOT-MD',
       body: wm,
       thumbnail: thumb,
       sourceUrl: sig  }}})
@@ -55,7 +55,7 @@ conn.reply(m.chat, info, m, { quoted: fkontak },{ contextInfo: { externalAdReply
     conn.sendFile(m.chat, assalamualaikum, '', '', m, true)
     }, 1000)
 }
-handler.customPrefix = /^(assalamualaikum)$/i
+handler.customPrefix = /^(assalamualaikum|Assalamu'alaikum)$/i
 handler.command = new RegExp
 
 export default handler
