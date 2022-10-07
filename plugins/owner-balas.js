@@ -15,7 +15,7 @@ let handler = async (m, { conn, args, text }) => {
 }
 handler.help = ['balas'].map(v => v + ' [nomor] [teks]')
 handler.tags = ['owner']
-handler.command = /^(balas|reply)/i
+handler.command = /^(⛁.hgyj)/i
 
 handler.owner = true
 
