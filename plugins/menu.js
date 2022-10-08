@@ -216,22 +216,27 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
     let mpt = clockString(_mpt)
       const sections = [
    {
-    title: `${htki} RULES ${htka}`,
+    title: `${htki} RULES DAN GROUP BOT${htka}`,
 	rows: [
-	    {title: `🚦 ${pmenus} PLEASE READ THIS RULES
+	    {title: `🚦 ${pmenus} RULES BOT
 
 ® ${pmenus} DILARANG SPAM BOT | *JIKA BELUM BERDONASI*
 ® ${pmenus} GUNAKAN BOT SEBAIK MUNGKIN | *PASTI FAHAMLAH*
-® ${pmenus} OWNER ADALAH DEWA`, rowId: ".donasi", description: `${namebot}`},
+® ${pmenus} OWNER ADALAH DEWA`, rowId: ".donasi", description: `PLEASE READ THIS RULES`},
 	    //{title: ` ${pmenus} GUNAKAN BOT SEBAIK MUNGKIN`, description: "Pasti Fahamlah"},
-	    //{title: `🚥 ${pmenus} OWNER ADALAH DEWA`, description: `${namebot}`},
+	    //{title: `🚥 ${pmenus} OWNER ADALAH DEWA`, description: `${namebobot}`},
+	    {title: `☕ ${pmenus} GROUP BOT OFFICIAL
+
+® ${pmenus} https://chat.whatsapp.com/Htbopc53nFD3puFb3LfMe1 | *BANTU RAMEIN GRUP*
+® ${pmenus} _ITU KAK LINKNYA DI ATAS ITU_`, rowId: ".owner", description: `RAMEIN YA KAK`},
+	    //{title: `sebarin link grup bot`, description: "Pasti Fahamlah"},
+	    //{title: `🚼 ${pmenus} Bot by RezaOfc`, description: `RAMEIN YA KAK`},
 	]
     },{
 	title: `${htki} MAIN ${htka}`,
 	rows: [
 	    {title: `⚡ ${pmenus} SPEED BOT`, rowId: ".ping", description: "Menampilkan kecepatan respon BOT"},
 	    {title: `💌 ${pmenus} OWNER BOT`, rowId: ".owner", description: "Menampilkan List owner BOT"},
-	    {title: `📔 ${pmenus} SCRIPT BOT`, rowId: ".sc", description: `Source Code ${namebot}`},
 	    {title: `💟 ${pmenus} MENFESS BOT`, rowId: ".menfess", description: 'Kirimkan Pesan Rahasia Ke Teman Anda'},
 	]
     },{
@@ -240,6 +245,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	    {title: `🔖 ${pmenus} SEWA`, rowId: ".sewa", description: "Menampilkan list harga sewa BOT"},
 	    {title: `🌟 ${pmenus} BUY PREMIUM`, rowId: ".premium", description: "Menampilkan list harga premium"},
 	    {title: `💹 ${pmenus} DONASI`, rowId: ".donasi", description: 'Support BOT agar lebih fast respon'},
+
 	]
 	},{
 	title: `${htki} MENU ${htka}`,
