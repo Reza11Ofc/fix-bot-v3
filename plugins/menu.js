@@ -228,7 +228,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	    {title: `☕ ${pmenus} GROUP BOT OFFICIAL
 
 ® ${pmenus} https://chat.whatsapp.com/Htbopc53nFD3puFb3LfMe1 | *BANTU RAMEIN GRUP*
-® ${pmenus} _ITU KAK LINKNYA DI ATAS ITU_`, rowId: ".owner", description: `RAMEIN YA KAK`},
+® ${pmenus} _ITU KAK LINKNYA DI ATAS ITU_`, rowId: "", description: `RAMEIN YA KAK`},
 	    //{title: `sebarin link grup bot`, description: "Pasti Fahamlah"},
 	    //{title: `🚼 ${pmenus} Bot by RezaOfc`, description: `RAMEIN YA KAK`},
 	]
